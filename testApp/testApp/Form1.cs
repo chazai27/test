@@ -21,5 +21,10 @@ namespace testApp
         {
             MessageBox.Show("test");
         }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("added a button");
+        }
     }
 }
